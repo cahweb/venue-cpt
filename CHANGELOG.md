@@ -4,6 +4,12 @@ This project adheres to [Semantic Versioning](http://semver.org/)
 
 
 ## [Unreleased]
+### Removed
+- required.php markup removed.
+
+## [0.1.0] - 2016/09/06
+### Notes
+- Initial release.
 
 
 
