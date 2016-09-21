@@ -8,12 +8,6 @@
  *
  */
 
-// Settings array. This is so I can retrieve predefined wp_editor() settings to keep the markup clean
-$settings = array (
-	'sm' => array('textarea_rows' => 3),
-	'md' => array('textarea_rows' => 6),
-);
-
 /* Custom Post Type ------------------- */
 
 // ini_set('display_errors', 1);
@@ -70,6 +64,12 @@ function temp_save() {
 
 	update_post_meta($post->ID, "temp", $_POST["temp"]);
 }
+
+// Settings array. This is so I can retrieve predefined wp_editor() settings to keep the markup clean
+$settings = array (
+	'sm' => array('textarea_rows' => 3),
+	'md' => array('textarea_rows' => 6),
+);
 
 
 ?>
