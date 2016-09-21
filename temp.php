@@ -48,7 +48,7 @@ function create_temp_type() {
 }
 
 add_action("admin_init", "temp_init");
-add_action('save_post', 'save_temp');
+add_action('save_post', 'temp_save');
 
 // Add the meta boxes to our CPT page
 function temp_init() {
@@ -65,7 +65,7 @@ function temp_meta_required() {
 }
 
 // Save our variables
-function save_temp() {
+function temp_save() {
 	global $post;
 
 	update_post_meta($post->ID, "temp", $_POST["temp"]);
