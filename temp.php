@@ -27,10 +27,10 @@ function temp_load_plugin_css() {
 add_action( 'admin_enqueue_scripts', 'temp_load_plugin_css' );
 
 // Add create function to init
-add_action('init', 'create_temp_type');
+add_action('init', 'temp_create_type');
 
 // Create the custom post type and register it
-function create_temp_type() {
+function temp_create_type() {
 	$args = array(
 	      'label' => 'temp',
 	        'public' => true,
