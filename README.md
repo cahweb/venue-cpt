@@ -1,4 +1,4 @@
-# Common - Template
+# Common - Venue CPT
 ## v0.1.0
 
-Template for all the common CPT plugins I have to make.
+Wordpress Plugin for Venue Custom Post Type to be used on applicable UCF College of Arts and Humanities websites.
