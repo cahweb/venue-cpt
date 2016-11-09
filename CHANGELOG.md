@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/)
 
+## [0.1.3] - 2016/11/09
+### Notes
+- Fixed metaboxes to match previous version in functions.php
+
 ## [0.1.2] - 2016/11/07
 ### Notes
 - Edited Template CPT to be Venue CPT
